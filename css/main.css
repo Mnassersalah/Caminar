@@ -137,9 +137,9 @@ footer
    margin-bottom: 30px 
 }
 
-footer i{margin: 5px}
-
 footer a ,footer p{text-decoration: none;color: #AAA}
+
+footer a{display: inline-block; margin: 5px}
 
 footer p{font-size: .75em}
 
