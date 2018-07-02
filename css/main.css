@@ -1,0 +1,147 @@
+/*Start main rules*/
+*
+{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-size: 1rem
+}
+body
+{
+   font-family: "Poppins", sans-serif;
+   line-height: 1.8em;
+   background-image: url('../images/bg.jpg');
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+.container
+{
+   width: 80rem;
+   max-width: 90%;
+   background: #1E1F23;
+   margin: auto;
+   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+
+.clear {clear: both}
+
+.fl-left {float: left}
+
+.text-center{text-align: center}
+
+.small-hr
+{
+   height: 1px;
+   width: 120px;
+   border: none;
+   background: #DFDFDF;
+   margin:1.5rem auto
+}
+/*End main rules*/
+
+
+/*Start Header*/
+.main-header{margin: 5em}
+
+.main-header p{color: #CCC}
+
+.main-header h1
+{
+   color: #FFF;
+   font-size: 4em;
+}
+/*End Header*/
+
+
+/*Start content*/
+
+/*Start Intro*/
+.block-image{display: block;width: 100%}
+
+.intro header{padding: 4em;background: #FFF}
+
+.intro header h2{font-size: 1.8em;color: #222}
+
+.intro header p ,.pics header p
+{
+   color: #AAA;
+   letter-spacing: .3em;
+   text-transform: uppercase;
+   font-size: .7em;
+}
+
+.intro section
+{
+   padding: 80px;
+   background: #F8F7F5
+}
+
+.intro section p
+{
+   color: #7A7A7A;
+}
+
+.intro section p:first-child{padding: 0 0 2em 0;}
+/*End Intro*/
+
+/*Start Pics*/
+.pics
+{
+   width: 70rem;
+   max-width: 90%;
+   margin: 80px auto;
+   padding-top: 20px;
+   background: #121315;
+}
+
+.pics header{padding: 1em}
+
+.pics header h2{color: #FFF;font-size: 1.5em}
+
+.pics header hr{background: #454D50}
+
+.pics header p{color: #454D50}
+
+.pics div{overflow: hidden}
+
+.pics div img {width: 50%}
+/*End pics*/
+
+/*Start Stories*/
+.stories div{overflow: hidden}
+
+.stories div img , .stories div section{width: 50%;}
+
+.stories section{padding: 7em}
+
+.stories section p{color: #888}
+
+.white-bg{background: #F4F4F4}
+
+.white-bg section h2{color: #333;font-size: 1.5em;margin-bottom: 1em}
+
+.black-bg{background: #1E1F23}
+
+.black-bg section h2{color: #FFF;font-size: 1.5em;margin-bottom: 1em}
+/*End Stories*/
+
+/*End content*/
+
+
+/*Start Footer*/
+footer
+{
+   text-align: center;
+   margin-top: 70px;
+   margin-bottom: 30px 
+}
+
+footer i{margin: 5px}
+
+footer a ,footer p{text-decoration: none;color: #AAA}
+
+footer p{font-size: .75em}
+
+footer a:hover{color: #FFF}
+/*End Footer*/
