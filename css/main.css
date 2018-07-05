@@ -73,7 +73,7 @@ body
 
 .intro section
 {
-   padding: 80px;
+   padding: 10%;
    background: #F8F7F5
 }
 
@@ -109,13 +109,13 @@ body
 /*End pics*/
 
 /*Start Stories*/
-.stories div{overflow: hidden}
+.stories div{overflow: hidden;display: flex;align-items: center}
 
 .stories div img , .stories div section{width: 50%;}
 
-.stories section{padding: 7em}
+.stories div section{padding: 0 10%}
 
-.stories section p{color: #888}
+.stories div section p{color: #888}
 
 .white-bg{background: #F4F4F4}
 
